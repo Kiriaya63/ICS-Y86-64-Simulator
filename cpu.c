@@ -245,7 +245,6 @@ void write_back(CPU *cpu)
             break;
 
         case I_IRMOVQ:
-        case I_MRMOVQ:
         case I_ALU:
             dstE = cpu->rB;
             break;
